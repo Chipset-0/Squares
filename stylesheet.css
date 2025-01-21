@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#containerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+.squareDiv {
+    border : 1px solid black;
+    box-sizing: border-box;
+}
+
+.squareDiv:hover {
+    background-color : lightblue
+}
