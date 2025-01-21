@@ -3,12 +3,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 #containerDiv {
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
-    height: 960px;
+    width: 720px;
+    height: 720px;
 }
 
 .squareDiv {
